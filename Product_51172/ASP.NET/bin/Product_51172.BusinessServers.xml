@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product_51172.BusinessServers</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Product_51172.BSForBuildings">
+            <summary>
+            BSForBuildings.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.UseDllCodeDecode">
+            <summary>
+            UseDllCodeDecode.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.BSForSectionNets">
+            <summary>
+            BSForSectionNets.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.CheckForUniqueness">
+            <summary>
+            CheckForUniqueness.
+            </summary>
+        </member>
+    </members>
+</doc>

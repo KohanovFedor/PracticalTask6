@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product_51172.Objects</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Product_51172.TypesSectionNet">
+            <summary>
+            Типы прокладки.
+            </summary>
+        </member>
+        <member name="F:IIS.Product_51172.TypesSectionNet.Внутренняя">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Product_51172.TypesSectionNet.Наружная">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.ObjectsHeat">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.NameObjectsHeat">
+            <summary>
+            NameObjectsHeat.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.DateReg">
+            <summary>
+            DateReg.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.QRcode">
+            <summary>
+            QRcode.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.Area">
+            <summary>
+            Area.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.Buildings">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.Clients">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.SectionNets">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.ObjectsHeat.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.Views.ObjectsHeatE">
+            <summary>
+            "ObjectsHeatE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.ObjectsHeat.Views.ObjectsHeatL">
+            <summary>
+            "ObjectsHeatL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.TypesOfInsulation">
+            <summary>
+            Типы изоляции.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.TypesOfInsulation.NameTypesOfInsulation">
+            <summary>
+            NameTypesOfInsulation.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.TypesOfInsulation.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.TypesOfInsulation.Views.TypesOfInsulationE">
+            <summary>
+            "TypesOfInsulationE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.TypesOfInsulation.Views.TypesOfInsulationL">
+            <summary>
+            "TypesOfInsulationL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Clients">
+            <summary>
+            Клиенты.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Clients.FIO">
+            <summary>
+            FIO.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Clients.account">
+            <summary>
+            account.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Clients.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Clients.Views.ClientsE">
+            <summary>
+            "ClientsE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Clients.Views.ClientsL">
+            <summary>
+            "ClientsL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.SectionNets">
+            <summary>
+            Участи сети.
+            </summary>
+        </member>
+        <member name="M:IIS.Product_51172.SectionNets.CheckUnNumer(System.Int32,System.String@)">
+            <summary>
+            CheckUnNumer - метод проверки уникальности номера участка сети.
+            Возврат true - номер уникальный, false - номер НЕ уникальный.
+            NumerSN - номер введенный пользователем.
+            NameSN - имя/имена участков у которого(-ых) записан данный проверяемый номер.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.NameSectionNet">
+            <summary>
+            NameSectionNet.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.NumerSectionNet">
+            <summary>
+            NumerSectionNet.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.TypeSectionNet">
+            <summary>
+            TypeSectionNet.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.StrOtherInformations">
+            <summary>
+            StrOtherInformations.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.TypesOfInsulation">
+            <summary>
+            Участи сети.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.ObjectsHeat">
+            <summary>
+            мастеровая ссылка на шапку IIS.Product_51172.ObjectsHeat.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.SectionNets.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.Views.SectionNetsE">
+            <summary>
+            "SectionNetsE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.SectionNets.Views.SectionNetsL">
+            <summary>
+            "SectionNetsL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.DetailArrayOfSectionNets">
+            <summary>
+            Detail array of SectionNets.
+            </summary>
+        </member>
+        <member name="M:IIS.Product_51172.DetailArrayOfSectionNets.#ctor(IIS.Product_51172.ObjectsHeat)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type SectionNets by index.
+            </summary>
+            <summary>
+            Adds object with type SectionNets.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Buildings">
+            <summary>
+            Здания.
+            </summary>
+        </member>
+        <member name="M:IIS.Product_51172.Buildings.CalculateSumArea(System.String,IIS.Product_51172.ObjectsHeat)">
+            <summary>
+            CalculateSumArea - метод, который пересчитывает и записывает в базу данных сумму занимаемой площади всеми объектами теплопотребления для данного здания.
+            PKbuild - PrimaryKey здания, для которого надо пересчитать
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Buildings.NameBuildings">
+            <summary>
+            NameBuildings.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Buildings.SumArea">
+            <summary>
+            SumArea.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Buildings.Microdistrict">
+            <summary>
+            Здания.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Buildings.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Buildings.Views.BuildingsE">
+            <summary>
+            "BuildingsE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Buildings.Views.BuildingsL">
+            <summary>
+            "BuildingsL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Microdistrict">
+            <summary>
+            Микрорайоны.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Microdistrict.NameMicrodistrict">
+            <summary>
+            NameMicrodistrict.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_51172.Microdistrict.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Microdistrict.Views.MicrodistrictE">
+            <summary>
+            "MicrodistrictE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_51172.Microdistrict.Views.MicrodistrictL">
+            <summary>
+            "MicrodistrictL" view.
+            </summary>
+        </member>
+    </members>
+</doc>
